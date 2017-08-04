@@ -38,6 +38,9 @@ void setup() {
   binarySearch = new BinarySearch(10);
   PrintText("Array: " + binarySearch.GetArray());
   PrintText("Binary Search for 6: " + binarySearch.Search(6));
+  
+  Factorial f = new Factorial(10);
+  PrintText("Factorial of 10: " + f.factorial);
 }
 
 void draw() {
