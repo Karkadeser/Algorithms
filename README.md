@@ -9,5 +9,4 @@ Algorithms:
 4. Merge Sort
 5. Linear Search
 6. Binary Search
-7. Hashing
-8. Factorial
+7. Factorial
