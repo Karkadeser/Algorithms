@@ -10,3 +10,4 @@ Algorithms:
 5. Linear Search
 6. Binary Search
 7. Factorial
+8. Fibonacci Number
