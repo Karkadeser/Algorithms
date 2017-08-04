@@ -2,6 +2,8 @@ BubbleSort bubbleSort;
 SellectionSort sellectionSort;
 InsertionSort insertionSort;
 MergeSort mergeSort;
+LinearSearch linearSearch;
+BinarySearch binarySearch;
 
 String[] lines;
 
@@ -28,6 +30,14 @@ void setup() {
   PrintText("Not sorted: " + mergeSort.GetArray());
   mergeSort.Sort();
   PrintText("Merge Sorted: " + mergeSort.GetArray());
+  
+  linearSearch = new LinearSearch(10);
+  PrintText("Array: " + linearSearch.GetArray());
+  PrintText("Linear Search for 5: " + linearSearch.Search(5));
+  
+  binarySearch = new BinarySearch(10);
+  PrintText("Array: " + binarySearch.GetArray());
+  PrintText("Binary Search for 6: " + binarySearch.Search(6));
 }
 
 void draw() {
