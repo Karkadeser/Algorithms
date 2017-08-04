@@ -1,4 +1,5 @@
 BubbleSort bubbleSort;
+SellectionSort sellectionSort;
 
 String[] lines;
 
@@ -10,6 +11,10 @@ void setup() {
   PrintText("Not sorted: " + bubbleSort.GetArray());
   bubbleSort.Sort();
   PrintText("Sorted: " + bubbleSort.GetArray());
+  sellectionSort = new SellectionSort(10);
+  PrintText("Not sorted: " + sellectionSort.GetArray());
+  sellectionSort.Sort();
+  PrintText("Sorted: " + sellectionSort.GetArray());
 }
 
 void draw() {

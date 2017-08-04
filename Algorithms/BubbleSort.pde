@@ -1,6 +1,7 @@
 
 class BubbleSort {
-  public int[] array;
+  
+  int[] array;
   BubbleSort(int size) {
     array = new int[size];
     for (int i = 0; i < size; i++) {
