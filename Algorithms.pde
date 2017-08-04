@@ -5,6 +5,7 @@ MergeSort mergeSort;
 LinearSearch linearSearch;
 BinarySearch binarySearch;
 
+
 String[] lines;
 
 void setup() {
@@ -41,6 +42,9 @@ void setup() {
   
   Factorial f = new Factorial(10);
   PrintText("Factorial of 10: " + f.factorial);
+  
+  FibonacciNumber fibonacciNumber = new FibonacciNumber();
+  PrintText("10 Fibonacci Number: " + fibonacciNumber.Find(10));
 }
 
 void draw() {
