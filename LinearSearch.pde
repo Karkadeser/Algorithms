@@ -1,5 +1,6 @@
 
 class LinearSearch {
+  
   int[] array;
   LinearSearch(int size) {
     array = new int[size];

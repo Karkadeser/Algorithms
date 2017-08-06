@@ -4,7 +4,7 @@ InsertionSort insertionSort;
 MergeSort mergeSort;
 LinearSearch linearSearch;
 BinarySearch binarySearch;
-
+SieveOfEratosthenes sieveOfEratosthenes;
 
 String[] lines;
 
@@ -45,6 +45,9 @@ void setup() {
   
   FibonacciNumber fibonacciNumber = new FibonacciNumber();
   PrintText("10 Fibonacci Number: " + fibonacciNumber.Find(10));
+  
+  SieveOfEratosthenes sieveOfEratosthenes = new SieveOfEratosthenes(1000);
+  PrintText("100 Simple Number: " + sieveOfEratosthenes.Find(100));
 }
 
 void draw() {
